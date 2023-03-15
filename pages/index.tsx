@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <p>Welcome to Technoteka Moscow</p>
+          <p>Welcome to Technoteka Moscow from Anton</p>
         </div>
       </main>
     </>

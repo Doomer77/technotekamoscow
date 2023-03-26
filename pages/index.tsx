@@ -1,9 +1,9 @@
-import Head from 'next/head'
+import Head from "next/head";
 import React from "react";
-import styles from '@/styles/Home.module.css'
+import { withLayout } from "../components/modules/layout/Layout";
+import styles from "../styles/Home.module.css";
 
-
-export default function Home() {
+function Home() {
   return (
     <>
       <Head>
@@ -18,5 +18,7 @@ export default function Home() {
         </div>
       </main>
     </>
-  )
+  );
 }
+
+export default withLayout(Home);

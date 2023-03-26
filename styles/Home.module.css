@@ -1,0 +1,13 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      to right bottom,
+      var(--color-white),
+      var(--color-white)
+    ),
+    url(../assets/home-bcg.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}

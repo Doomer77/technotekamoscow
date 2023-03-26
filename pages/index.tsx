@@ -1,7 +1,7 @@
-import Head from "next/head";
-import React from "react";
-import { withLayout } from "../components/modules/layout/Layout";
-import styles from "../styles/Home.module.css";
+import Head from 'next/head'
+import React from 'react'
+import { withLayout } from '../components/modules/layout/Layout'
+import styles from '../styles/Home.module.css'
 
 function Home() {
   return (
@@ -12,13 +12,9 @@ function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <div className={styles.description}>
-          <p>Welcome to Technoteka Moscow from Anton</p>
-        </div>
-      </main>
+      <div className={styles.home}></div>
     </>
-  );
+  )
 }
 
-export default withLayout(Home);
+export default withLayout(Home)

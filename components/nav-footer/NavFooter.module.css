@@ -1,0 +1,37 @@
+.nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav_item:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.nav_link {
+  font-family: var(--font-opensans-regular);
+  font-size: 1.3rem;
+  color: var(--color-white);
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+.nav_link:hover {
+  color: var(--color-red);
+}
+
+.nav_link_active {
+  font-family: var(--font-opensans-regular);
+  font-size: 1.8rem;
+  color: var(--color-red);
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.4s;
+}

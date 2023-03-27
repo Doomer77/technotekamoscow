@@ -9,7 +9,7 @@ const Layout = ({ children }: LayoutProps): JSX.Element => {
   return (
     <div className={styles.layout}>
       <Header />
-      <main>{children}</main>
+      <main className={styles.main}>{children}</main>
       <Footer />
     </div>
   )

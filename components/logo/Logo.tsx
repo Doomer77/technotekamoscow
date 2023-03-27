@@ -1,12 +1,12 @@
 import Link from 'next/link'
-import { nav } from '../../utils/routes'
+import { navHeader } from '../../utils/routes'
 import LogoIcon from '../../assets/images/logo.svg'
 import styles from './Logo.module.css'
 
 export const Logo = (): JSX.Element => {
   return (
     <div className={styles.logo_box}>
-      <Link href={nav[0].path} className={styles.logo_box_link}>
+      <Link href={navHeader[0].path} className={styles.logo_box_link}>
         <div className={styles.logo_box_logo}>
           <LogoIcon className={styles.logo} />
         </div>

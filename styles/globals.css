@@ -26,6 +26,7 @@
   --color-blue: rgba(49, 45, 129, 1);
   --color-blue-opacity: rgba(49, 45, 129, 0.8);
   --color-red: #ff2f2f;
+  --color-black-opacity: rgba(0, 0, 0, 0.8);
   --font-play-regular: 'PlayRegular';
   --font-opensans-bold: 'OpenSansBold';
   --font-opensans-regular: 'OpenSansRegular';

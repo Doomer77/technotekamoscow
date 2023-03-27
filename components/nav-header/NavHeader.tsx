@@ -1,14 +1,14 @@
 import Link from 'next/link'
 import { NextRouter, useRouter } from 'next/router'
-import { nav } from '../../utils/routes'
-import styles from './Navigation.module.css'
+import { navHeader } from '../../utils/routes'
+import styles from './NavHeader.module.css'
 
-export const Navigation = (): JSX.Element => {
+export const NavHeader = (): JSX.Element => {
   const { pathname }: NextRouter = useRouter()
   return (
     <nav className={styles.nav}>
       <ul className={styles.nav_list}>
-        {nav.slice(1).map(({ id, title, path }) => (
+        {navHeader.slice(1).map(({ id, title, path }) => (
           <li key={id} className={styles.nav_item}>
             <Link
               href={path}

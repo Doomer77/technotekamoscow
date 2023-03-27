@@ -1,0 +1,40 @@
+.logo_box {
+  display: flex;
+  align-items: center;
+}
+
+.logo_box_link {
+  display: flex;
+  text-decoration: none;
+}
+
+.logo_box_logo {
+  width: 5.5rem;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+
+.logo_box_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text_big {
+  font-family: var(--font-play-regular);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+.text_small {
+  font-family: var(--font-opensans-bold);
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+  color: var(--color-white);
+}
+
+.text_big_mod {
+  color: var(--color-red);
+}

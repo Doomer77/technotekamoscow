@@ -19,7 +19,7 @@ export const navSocial: SocialInterface[] = [
   {
     id: 2,
     Image: VkIcon,
-    path: 'https://vk.com/technotekamoscow',
+    path: 'https://vk.com/technotekamoscowru',
   },
   {
     id: 3,

@@ -5,7 +5,7 @@ import iconPc from '../assets/images/png/pc-icon.png'
 import iconVideo from '../assets/images/png/video-icon.png'
 import iconSiteDev from '../assets/images/png/site-icon.png'
 import iconShop from '../assets/images/png/shop-icon.png'
-import iconSelection from '../assets/images/png/selection-icon.png'
+import iconSPS from '../assets/images/png/sps-icon.png'
 
 export interface NavHomeInterface {
   id: number
@@ -27,14 +27,6 @@ export const navHome: NavHomeInterface[] = [
   },
   {
     id: 2,
-    img: iconTablet,
-    path: '/tablet-service',
-    title: 'Ремонт плашетов',
-    longImg: false,
-    alt: 'TechnotekaMoscow - сервис планшетов: Apple, Sumsung, Xiaomi, Huawei, Vivo,Oppo, Realme, Vertu, Asus, Acer, HP, Lenovo, Dell, MSi, Gygabyte, Sony',
-  },
-  {
-    id: 3,
     img: iconBook,
     path: '/book-service',
     title: 'Ремонт ноутбуков',
@@ -42,7 +34,7 @@ export const navHome: NavHomeInterface[] = [
     alt: 'TechnotekaMoscow - сервис ноутбуков: Apple, Sumsung, Xiaomi, Huawei, Vivo,Oppo, Realme, Vertu, Asus, Acer, HP, Lenovo, Dell, MSi, Gygabyte, Sony',
   },
   {
-    id: 4,
+    id: 3,
     img: iconPc,
     path: '/pc-service',
     title: 'Ремонт и сборка ПК',
@@ -50,7 +42,7 @@ export const navHome: NavHomeInterface[] = [
     alt: 'TechnotekaMoscow - сервис персональных компьютеров',
   },
   {
-    id: 5,
+    id: 4,
     img: iconVideo,
     path: '/video-cards-service',
     title: 'Ремонт видеокарт',
@@ -58,7 +50,7 @@ export const navHome: NavHomeInterface[] = [
     alt: 'TechnotekaMoscow - сервис видеокарт: Asus, Acer, HP, Lenovo, Dell, MSi, Gygabyte',
   },
   {
-    id: 6,
+    id: 5,
     img: iconSiteDev,
     path: '/development',
     title: 'Создание сайтов',
@@ -66,7 +58,7 @@ export const navHome: NavHomeInterface[] = [
     alt: 'TechnotekaMoscow - разработка и продвижение сайтов и приложений',
   },
   {
-    id: 7,
+    id: 6,
     img: iconShop,
     path: '/shop',
     title: 'Продажа техники',
@@ -74,11 +66,19 @@ export const navHome: NavHomeInterface[] = [
     alt: 'TechnotekaMoscow - продажа техники: Apple, Sumsung, Xiaomi, Huawei, Vivo,Oppo, Realme, Vertu, Asus, Acer, HP, Lenovo, Dell, MSi, Gygabyte, Sony',
   },
   {
-    id: 8,
-    img: iconSelection,
-    path: '/selection',
-    title: 'Подбор техники',
+    id: 7,
+    img: iconSPS,
+    path: '/console-service',
+    title: 'Ремонт приставок PS, X BOX',
     longImg: true,
-    alt: 'TechnotekaMoscow - продажа техники: Apple, Sumsung, Xiaomi, Huawei, Vivo,Oppo, Realme, Vertu, Asus, Acer, HP, Lenovo, Dell, MSi, Gygabyte, Sony',
+    alt: 'TechnotekaMoscow - ремонт приставок: Sony PlayStation, XBox',
+  },
+  {
+    id: 8,
+    img: iconTablet,
+    path: '/tablet-service',
+    title: 'Ремонт плашетов',
+    longImg: false,
+    alt: 'TechnotekaMoscow - сервис планшетов: Apple, Sumsung, Xiaomi, Huawei, Vivo,Oppo, Realme, Vertu, Asus, Acer, HP, Lenovo, Dell, MSi, Gygabyte, Sony',
   },
 ]

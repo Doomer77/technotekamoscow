@@ -6,10 +6,10 @@ export const Social = (): JSX.Element => {
   return (
     <nav className={styles.nav}>
       <ul className={styles.nav_list}>
-        {navSocial.map(({ id, path, Image }) => (
+        {navSocial.map(({ id, path, ImageIcon }) => (
           <li key={id} className={styles.nav_item}>
             <Link href={path} className={styles.nav_link}>
-              <Image />
+              <ImageIcon />
             </Link>
           </li>
         ))}

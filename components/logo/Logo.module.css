@@ -38,3 +38,9 @@
 .text_big_mod {
   color: var(--color-red);
 }
+
+@media only screen and (max-width: 64em) {
+  .logo_box_logo {
+    margin-right: 3rem;
+  }
+}

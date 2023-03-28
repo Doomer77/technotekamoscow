@@ -72,10 +72,6 @@
 }
 
 .home_nav_features_list {
-  width: 50rem;
-}
-
-.home_nav_features_list {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -126,4 +122,30 @@
   font-size: 2.4rem;
   line-height: 2.9rem;
   color: #000000;
+}
+
+@media only screen and (max-width: 81.25em) {
+  .home {
+    padding: 10rem 5rem 0 5rem;
+  }
+}
+
+@media only screen and (max-width: 64em) {
+  .home {
+    padding-top: 14rem;
+  }
+}
+
+@media only screen and (max-width: 48em) {
+  .home {
+    height: auto;
+    padding-bottom: 10rem;
+  }
+  .home_nav_block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .home_nav_features_block:not(:last-child) {
+    margin-bottom: 3rem;
+  }
 }

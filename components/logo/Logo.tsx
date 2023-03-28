@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { navHeader } from '../../utils/routes'
-import LogoIcon from '../../assets/images/logo.svg'
+import LogoIcon from '../../assets/images/svg/logo.svg'
 import styles from './Logo.module.css'
 
 export const Logo = (): JSX.Element => {

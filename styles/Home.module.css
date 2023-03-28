@@ -1,14 +1,129 @@
 .home {
   width: 100%;
   height: 100vh;
-  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10rem 15rem 0 15rem;
   background-image: linear-gradient(
       to right bottom,
       var(--color-white-opacity),
       var(--color-white-opacity-2)
     ),
-    url(../assets/images/home-bcg.jpg);
+    url(../assets/images/png/home-bcg.jpg);
   background-size: cover;
   background-position: center;
-  position: relative;
+}
+
+.home_preview_block {
+  display: flex;
+  align-items: center;
+}
+
+.home_preview_text {
+  font-family: var(--font-play-regular);
+  font-size: 2.2rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: var(--color-black-light);
+  font-weight: 500;
+}
+
+.home_preview_text_blue {
+  color: var(--color-blue);
+  font-weight: 700;
+}
+
+.home_preview_text_red {
+  color: var(--color-red-dark);
+  font-weight: 700;
+}
+
+.home_info_price_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.home_info_price_big {
+  font-family: var(--font-play-regular);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.2rem;
+  text-transform: uppercase;
+  color: var(--color-blue);
+}
+
+.home_info_price_small {
+  font-family: var(--font-play-regular);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.2rem;
+  color: var(--color-red-dark);
+}
+
+.home_nav_block {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.home_nav_features_list {
+  width: 50rem;
+}
+
+.home_nav_features_list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.home_nav_feature {
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.home_nav_feature:hover {
+  transform: translateY(-0.3rem);
+}
+
+.home_nav_feature:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+.home_nav_feature_link {
+  display: flex;
+  align-items: center;
+  width: 45rem;
+  height: 6.5rem;
+  padding: 0 3rem;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 0px 7px 4px rgb(0 0 0 / 25%);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.home_nav_feature_img {
+  width: 3rem !important;
+  height: 4rem !important;
+  margin-right: 2rem;
+}
+
+.home_nav_feature_img_long {
+  width: 4rem !important;
+  height: 3rem !important;
+  margin-right: 1rem;
+}
+
+.home_nav_feature_text {
+  font-family: var(--font-opensans-regular);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #000000;
 }

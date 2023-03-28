@@ -36,3 +36,9 @@
   background: var(--color-red);
   color: var(--color-white);
 }
+
+@media only screen and (max-width: 48em) {
+  .user_feedback_button {
+    display: none;
+  }
+}

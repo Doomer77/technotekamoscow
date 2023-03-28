@@ -6,7 +6,7 @@ import TelegramIcon from '../assets/images/svg/telegram.svg'
 
 export interface SocialInterface {
   id: number
-  ImageIcon: FunctionComponent<SVGAttributes<SVGAElement>>
+  Icon: FunctionComponent<SVGAttributes<SVGAElement>>
   path: string
   alt: string
 }
@@ -14,25 +14,25 @@ export interface SocialInterface {
 export const navSocial: SocialInterface[] = [
   {
     id: 1,
-    ImageIcon: OkIcon,
+    Icon: OkIcon,
     path: 'https://ok.ru/technotekamoscow',
     alt: '',
   },
   {
     id: 2,
-    ImageIcon: VkIcon,
+    Icon: VkIcon,
     path: 'https://vk.com/technotekamoscowru',
     alt: '',
   },
   {
     id: 3,
-    ImageIcon: TikTokIcon,
+    Icon: TikTokIcon,
     path: 'https://www.tiktok.com/@technotekamoscow?',
     alt: '',
   },
   {
     id: 4,
-    ImageIcon: TelegramIcon,
+    Icon: TelegramIcon,
     path: 'https://t.me/technotekamoscow',
     alt: '',
   },

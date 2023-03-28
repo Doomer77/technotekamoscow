@@ -1,12 +1,12 @@
 import { FunctionComponent, SVGAttributes } from 'react'
-import OkIcon from '../assets/images/svg/odnoklassniki.svg'
-import VkIcon from '../assets/images/svg/vk.svg'
-import TikTokIcon from '../assets/images/svg/tiktok.svg'
-import TelegramIcon from '../assets/images/svg/telegram.svg'
+import okIcon from '../assets/images/png/odnoklassniki.png'
+import vkIcon from '../assets/images/png/vk.png'
+import tikTokIcon from '../assets/images/png/tiktok.png'
+import telIcon from '../assets/images/png/telegram.png'
 
 export interface SocialInterface {
   id: number
-  Icon: FunctionComponent<SVGAttributes<SVGAElement>>
+  icon: StaticImageData
   path: string
   alt: string
 }
@@ -14,25 +14,25 @@ export interface SocialInterface {
 export const navSocial: SocialInterface[] = [
   {
     id: 1,
-    Icon: OkIcon,
+    icon: okIcon,
     path: 'https://ok.ru/technotekamoscow',
     alt: '',
   },
   {
     id: 2,
-    Icon: VkIcon,
+    icon: vkIcon,
     path: 'https://vk.com/technotekamoscowru',
     alt: '',
   },
   {
     id: 3,
-    Icon: TikTokIcon,
+    icon: tikTokIcon,
     path: 'https://www.tiktok.com/@technotekamoscow?',
     alt: '',
   },
   {
     id: 4,
-    Icon: TelegramIcon,
+    icon: telIcon,
     path: 'https://t.me/technotekamoscow',
     alt: '',
   },

@@ -1,8 +1,8 @@
 import { FunctionComponent, SVGAttributes } from 'react'
-import OkIcon from '../assets/images/odnoklassniki.svg'
-import VkIcon from '../assets/images/vk.svg'
-import TikTokIcon from '../assets/images/tiktok.svg'
-import TelegramIcon from '../assets/images/telegram.svg'
+import OkIcon from '../assets/images/svg/odnoklassniki.svg'
+import VkIcon from '../assets/images/svg/vk.svg'
+import TikTokIcon from '../assets/images/svg/tiktok.svg'
+import TelegramIcon from '../assets/images/svg/telegram.svg'
 
 export interface SocialInterface {
   id: number

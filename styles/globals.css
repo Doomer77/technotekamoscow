@@ -20,13 +20,15 @@
 }
 
 :root {
-  --color-white-opacity: rgba(125, 125, 125, 0.55);
+  --color-white-opacity: rgba(255, 255, 255, 0.7);
   --color-white-opacity-2: rgba(195, 195, 195, 0.9);
   --color-white: rgb(255, 255, 255);
   --color-blue: rgba(49, 45, 129, 1);
   --color-blue-opacity: rgba(49, 45, 129, 0.8);
   --color-red: #ff2f2f;
+  --color-red-dark: #ce1414;
   --color-black-opacity: rgba(0, 0, 0, 0.8);
+  --color-black-light: rgb(62, 62, 62);
   --font-play-regular: 'PlayRegular';
   --font-opensans-bold: 'OpenSansBold';
   --font-opensans-regular: 'OpenSansRegular';

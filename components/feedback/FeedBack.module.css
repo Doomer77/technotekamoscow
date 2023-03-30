@@ -1,0 +1,44 @@
+.user_box {
+  display: flex;
+  align-items: center;
+}
+
+.phone_box {
+  margin-right: 2rem;
+}
+
+.phone_link {
+  font-family: var(--font-play-regular);
+  font-size: 1.8rem;
+  color: var(--color-white);
+  text-decoration: none;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.phone_link:hover {
+  color: var(--color-red);
+}
+
+.user_feedback_button {
+  padding: 1.1rem 1.7rem;
+  border-radius: 0.5rem;
+  font-size: 1.7rem;
+  font-family: var(--font-play-regular);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: var(--color-white);
+  transition: all 0.2s;
+}
+
+.user_feedback_button:hover {
+  background: var(--color-red);
+  color: var(--color-white);
+}
+
+@media only screen and (max-width: 48em) {
+  .user_feedback_button {
+    display: none;
+  }
+}

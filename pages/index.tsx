@@ -14,7 +14,7 @@ function Home() {
         <meta
           name="description"
           content="TechnotekaMoscow - выездной сервис по ремонту и продаже техники брендов: Apple, Sumsung, Xiaomi, Huawei, Vivo,
-                    Oppo, Realme, Vertu, Asus, Acer, HP, Lenovo, Dell, MSi, Gygabyte, Sony"
+                    Oppo, Realme, Vertu, Asus, Acer, HP, Lenovo, Dell, MSi, Gygabyte, Sony..."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -24,16 +24,10 @@ function Home() {
           <h1 className={styles.home_preview_text}>
             <span className={styles.home_preview_text_blue}>Technoteka</span>
             <span className={styles.home_preview_text_red}>Moscow</span> -
-            сервис по обслуживанию техники брендов: Apple, Sumsung, Xiaomi,
-            Huawei, Vivo, Oppo, Realme, Vertu, Asus, Acer, HP, Lenovo, Dell,
-            MSi, Gygabyte, Sony...
+            сервис по ремонту техники Apple, Sumsung, Xiaomi, Huawei, Vivo,
+            Oppo, Realme, Vertu, Asus, Acer, HP, Lenovo, Dell, MSi, Gygabyte,
+            Sony...
           </h1>
-        </div>
-        <div className={styles.home_info_price_block}>
-          <p className={styles.home_info_price_big}>Выберите услугу</p>
-          <p className={styles.home_info_price_small}>
-            Чтобы узнать подробности и стоимость
-          </p>
         </div>
         <div className={styles.home_nav_block}>
           <nav className={styles.home_nav_features_block}>
@@ -51,6 +45,7 @@ function Home() {
                         }
                         src={img}
                         alt={alt}
+                        priority
                       />
                       <p className={styles.home_nav_feature_text}>{title}</p>
                     </Link>

@@ -24,7 +24,7 @@
 .home_preview_text {
   font-family: var(--font-play-regular);
   font-size: 2.2rem;
-  line-height: 2.5rem;
+  line-height: 3rem;
   text-align: center;
   color: var(--color-black-light);
   font-weight: 500;
@@ -138,7 +138,7 @@
 
 @media only screen and (max-width: 48em) {
   .home {
-    height: auto;
+    /* height: auto; */
     padding-bottom: 10rem;
   }
   .home_nav_block {
@@ -146,6 +146,10 @@
     align-items: center;
   }
   .home_nav_features_block:not(:last-child) {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .home_nav_feature:not(:last-child) {
+    margin-bottom: 1rem;
   }
 }

@@ -1,0 +1,17 @@
+.burger_block {
+  width: 3.5rem;
+  height: 3rem;
+  cursor: pointer;
+  display: none;
+}
+
+.burger_icon {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 40em) {
+  .burger_block {
+    display: block;
+  }
+}

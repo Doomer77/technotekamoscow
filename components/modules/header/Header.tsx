@@ -3,6 +3,7 @@ import { NavHeader } from '../../nav-header/NavHeader'
 import { Logo } from '../../logo/Logo'
 import { FeedBack } from '../../feedback/FeedBack'
 import styles from './Header.module.css'
+import { Burger } from '../../burger/Bureger'
 
 export const Header = ({ ...props }: HeaderProps): JSX.Element => {
   return (
@@ -10,6 +11,7 @@ export const Header = ({ ...props }: HeaderProps): JSX.Element => {
       <Logo />
       <NavHeader />
       <FeedBack />
+      <Burger nav={true} />
     </header>
   )
 }

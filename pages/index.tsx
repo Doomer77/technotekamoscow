@@ -44,7 +44,7 @@ function Home() {
                             : styles.home_nav_feature_img
                         }
                         src={img}
-                        alt=""
+                        alt={alt}
                         priority
                       />
                       <p className={styles.home_nav_feature_text}>{title}</p>
@@ -67,7 +67,7 @@ function Home() {
                             : styles.home_nav_feature_img
                         }
                         src={img}
-                        alt=""
+                        alt={alt}
                         priority
                       />
                       <p className={styles.home_nav_feature_text}>{title}</p>

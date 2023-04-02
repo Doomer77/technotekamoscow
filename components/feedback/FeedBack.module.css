@@ -42,3 +42,9 @@
     display: none;
   }
 }
+
+@media only screen and (max-width: 26.25em) {
+  .phone_box {
+    display: none;
+  }
+}

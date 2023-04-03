@@ -16,7 +16,7 @@ export const Header = ({ ...props }: HeaderProps): JSX.Element => {
       <NavHeader />
       <FeedBack />
       <Burger nav={nav} onClick={() => setNav(!nav)} />
-      {/* <BurgerMenu /> */}
+      <BurgerMenu nav={nav} />
     </header>
   )
 }

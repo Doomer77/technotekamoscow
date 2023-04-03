@@ -157,6 +157,21 @@
   }
 }
 
+@media only screen and (max-width: 34.37em) {
+  .home {
+    padding: 2rem 3rem;
+  }
+
+  .home_nav_feature_link {
+    padding: 2rem;
+    width: 40rem;
+    height: 5.5rem;
+  }
+  .home_nav_feature_text {
+    font-size: 2rem;
+  }
+}
+
 @media only screen and (max-width: 20.5em) {
   .home {
     padding: 2rem;

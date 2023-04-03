@@ -2,7 +2,7 @@ import { NavFooter } from '../../nav-footer/NavFooter'
 import { Social } from '../../social/Social'
 
 import styles from './Footer.module.css'
-import CopyrightIcon from '../../../assets/images/svg/copyright.svg'
+import CopyrightIcon from '../../../assets/images/png/copyright.svg'
 
 export const Footer = ({ ...props }): JSX.Element => {
   return (

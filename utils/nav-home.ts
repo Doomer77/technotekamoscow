@@ -4,7 +4,7 @@ import iconBook from '../assets/images/png/book-icon.png'
 import iconPc from '../assets/images/png/pc-icon.png'
 import iconVideo from '../assets/images/png/video-icon.png'
 import iconSiteDev from '../assets/images/png/site-icon.png'
-import iconShop from '../assets/images/png/shop-icon.png'
+import iconWatch from '../assets/images/png/smart-watch.png'
 import iconSPS from '../assets/images/png/sps-icon.png'
 
 export interface NavHomeInterface {
@@ -59,9 +59,9 @@ export const navHome: NavHomeInterface[] = [
   },
   {
     id: 6,
-    img: iconShop,
-    path: '/shop',
-    title: 'Продажа техники',
+    img: iconWatch,
+    path: '/watch-service',
+    title: 'Ремонт часов',
     longImg: true,
     alt: 'TechnotekaMoscow - продажа техники: Apple, Sumsung, Xiaomi, Huawei, Vivo,Oppo, Realme, Vertu, Asus, Acer, HP, Lenovo, Dell, MSi, Gygabyte, Sony',
   },

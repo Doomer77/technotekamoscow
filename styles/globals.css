@@ -32,6 +32,7 @@
   --font-play-regular: 'PlayRegular';
   --font-opensans-bold: 'OpenSansBold';
   --font-opensans-regular: 'OpenSansRegular';
+  --box-shadow: -3px 3px 13px 3px rgba(3, 3, 3, 0.76);
 }
 
 *,

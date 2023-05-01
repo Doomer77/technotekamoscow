@@ -2,7 +2,11 @@
   width: 100%;
   height: 100vh;
   padding: 2rem 4rem;
-  background: linear-gradient(107.25deg, #e6e6e6 0.51%, #e6e6e6 93.26%);
+  background: linear-gradient(
+    107.25deg,
+    rgb(169 169 169 / 45%) 0.51%,
+    rgb(239 239 239 / 90%) 100%
+  );
 }
 
 .about_info {
@@ -11,9 +15,9 @@
 }
 
 .about_info_img_block {
-  max-width: 40rem;
-  height: 31rem;
-  margin-right: 5rem;
+  min-width: 29rem;
+  height: 30.5rem;
+  margin-right: 4rem;
   box-shadow: var(--box-shadow);
   border-radius: 1rem;
 }
@@ -28,7 +32,7 @@
 }
 
 .about_info_content {
-  max-width: 70%;
+  text-align: justify;
   display: flex;
   flex-direction: column;
 }
@@ -38,17 +42,16 @@
   font-size: 2.7rem;
   font-weight: 700;
   color: var(--color-red);
-  line-height: 3.1rem;
+  margin-bottom: 1.5rem;
 }
 
 .about_info_text {
   font-family: var(--font-play-regular);
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 2.3rem;
 }
 
 .about_info_text:not(:last-child) {
-  margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
@@ -61,6 +64,7 @@
 }
 
 .about_mission_content {
+  margin-right: 4rem;
   max-width: 60%;
   border-left: 2px solid var(--color-red);
   padding-left: 0.5rem;
@@ -68,19 +72,36 @@
 
 .about_mission_header {
   font-family: var(--font-play-regular);
-  font-size: 2.2rem;
+  font-size: 2rem;
   text-transform: uppercase;
   color: var(--color-red);
+  margin-bottom: 1.5rem;
 }
 
 .about_mission_text {
   font-family: var(--font-play-regular);
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 2.3rem;
+  text-align: justify;
+}
+
+.about_mission_strong {
+  font-weight: 700;
+}
+
+.about_info_text_red {
+  font-weight: 700;
+  color: var(--color-red);
+}
+
+.about_info_text_blue {
+  font-weight: 700;
+  color: var(--color-blue);
 }
 
 .about_mission_img_block {
-  max-width: 33%;
+  min-width: 55rem;
+  min-height: 16.5rem;
   box-shadow: var(--box-shadow);
   border-radius: 1rem;
 }

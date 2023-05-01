@@ -1,12 +1,19 @@
 .about {
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 14rem);
   padding: 2rem 4rem;
   background: linear-gradient(
     107.25deg,
     rgb(169 169 169 / 45%) 0.51%,
     rgb(239 239 239 / 90%) 100%
   );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about_container {
+  width: 144rem;
 }
 
 .about_info {
@@ -106,5 +113,51 @@
   border-radius: 1rem;
 }
 
-@media only screen and (max-width: 64em) {
+@media only screen and (max-width: 48em) {
+  .about_container {
+    padding: 0 7rem;
+  }
+
+  .about_mission_text,
+  .about_info_text {
+    font-size: 2.2rem;
+    line-height: 3rem;
+  }
+
+  .about_info_img_block,
+  .about_mission_img_block {
+    display: none;
+  }
+
+  .about_info_header {
+    text-align: center;
+  }
+
+  .about_mission_content {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 34.37em) {
+  .about_container {
+    padding: 0 2rem;
+  }
+  .about {
+    padding: 0;
+  }
+
+  .about_mission_text,
+  .about_info_text {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+}
+
+@media only screen and (max-width: 20.5em) {
+  .about {
+    height: auto;
+  }
+  .about_container {
+    padding: 2rem;
+  }
 }

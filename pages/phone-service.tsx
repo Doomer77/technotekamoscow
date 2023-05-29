@@ -23,4 +23,4 @@ function About() {
   )
 }
 
-export default withLayout(About)
+export default withLayout(About, 'layout')

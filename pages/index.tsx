@@ -82,4 +82,4 @@ function Home() {
   )
 }
 
-export default withLayout(Home)
+export default withLayout(Home, '100')

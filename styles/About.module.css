@@ -4,8 +4,8 @@
   padding: 2rem 4rem;
   background: linear-gradient(
     107.25deg,
-    rgb(169 169 169 / 45%) 0.51%,
-    rgb(239 239 239 / 90%) 100%
+    rgba(169, 169, 169, 0.45) 0.51%,
+    rgba(239, 239, 239, 0.9) 100%
   );
   display: flex;
   align-items: center;

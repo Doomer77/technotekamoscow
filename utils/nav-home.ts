@@ -69,9 +69,9 @@ export const navHome: NavHomeInterface[] = [
     id: 7,
     img: iconSPS,
     path: '/console-service',
-    title: 'Ремонт приставок PS, X BOX',
+    title: 'Ремонт Sony PlayStation',
     longImg: true,
-    alt: 'TechnotekaMoscow - ремонт приставок: Sony PlayStation, XBox',
+    alt: 'TechnotekaMoscow - ремонт приставок: Sony PlayStation'
   },
   {
     id: 8,

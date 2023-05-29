@@ -24,7 +24,6 @@ function About() {
       </Head>
       <section className={styles.about}>
         <div className={styles.about_container}>
-          {' '}
           <div className={styles.about_info}>
             <div className={styles.about_info_img_block}>
               <Image
@@ -49,11 +48,8 @@ function About() {
                 тестирование и аттестацию.
               </p>
               <p className={styles.about_info_text}>
-                В{' '}
-                <span className={styles.about_info_text_red}> Technoteka</span>
-                <span className={styles.about_info_text_blue}>
-                  moscow{' '}
-                </span>{' '}
+                В<span className={styles.about_info_text_red}> Technoteka</span>
+                <span className={styles.about_info_text_blue}>moscow </span>
                 сервисные инженеры задают самые высокие стандарты сервиса и
                 качества предоставляемых услуг. Именно они ремонтируют Ваши
                 гаджеты и разрабатывают сайты. Это специалисты, досконально
@@ -93,4 +89,4 @@ function About() {
   )
 }
 
-export default withLayout(About)
+export default withLayout(About, '100')

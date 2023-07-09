@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { navHeader } from '../../utils/routes'
 import logoIcon from '../../assets/images/png/logo-icon.png'
-import styles from './Logo.module.css'
+import styles from './Logo.module.scss'
 import Image from 'next/image'
 
 export const Logo = (): JSX.Element => {

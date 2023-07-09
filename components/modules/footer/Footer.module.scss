@@ -1,3 +1,5 @@
+@import '../../../assets/sass/variables';
+
 .footer {
   width: 100%;
   height: 7rem;
@@ -5,7 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--color-black-opacity);
+  background: $color-black-opacity;
 }
 
 .footer_copyright {
@@ -20,9 +22,9 @@
 }
 
 .copyright_text {
-  font-family: var(--font-play-regular);
+  font-family: $font-play-regular;
   font-size: 1.8rem;
-  color: var(--color-white);
+  color: $color-white;
 }
 
 @media only screen and (max-width: 48em) {

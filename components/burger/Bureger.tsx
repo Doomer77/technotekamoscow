@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from './Burger.module.css'
+import styles from './Burger.module.scss'
 import openIcon from '../../assets/images/png/open-icon.png'
 import closeIcon from '../../assets/images/png/close-icon.png'
 import { BurgerInterface } from './Burger.props'

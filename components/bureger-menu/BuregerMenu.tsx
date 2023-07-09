@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { NextRouter, useRouter } from 'next/router'
 import { navHeader } from '../../utils/routes'
-import styles from './BurgerMenu.module.css'
+import styles from './BurgerMenu.module.scss'
 import { BurgerMenuInterface } from './BuregerMenu.props'
 
 export const BurgerMenu = ({ nav }: BurgerMenuInterface): JSX.Element => {

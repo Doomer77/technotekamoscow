@@ -1,3 +1,5 @@
+@import '../assets/sass/variables';
+
 .home {
   width: 100%;
   height: calc(100vh - 14rem);
@@ -8,8 +10,8 @@
   justify-content: flex-start;
   background-image: linear-gradient(
       to right bottom,
-      var(--color-white-opacity),
-      var(--color-white-opacity-2)
+      $color-white-opacity,
+      $color-white-opacity-2
     ),
     url(../assets/images/png/home-bcg.jpg);
   background-size: cover;
@@ -22,21 +24,21 @@
 }
 
 .home_preview_text {
-  font-family: var(--font-play-regular);
+  font-family: $font-play-regular;
   font-size: 2.2rem;
   line-height: 3rem;
   text-align: center;
-  color: var(--color-black-light);
+  color: $color-black-light;
   font-weight: 500;
 }
 
 .home_preview_text_blue {
-  color: var(--color-blue);
+  color: $color-blue;
   font-weight: 700;
 }
 
 .home_preview_text_red {
-  color: var(--color-red-dark);
+  color: $color-red-dark;
   font-weight: 700;
 }
 
@@ -48,20 +50,20 @@
 }
 
 .home_info_price_big {
-  font-family: var(--font-play-regular);
+  font-family: $font-play-regular;
   font-weight: 700;
   font-size: 2rem;
   line-height: 2.2rem;
   text-transform: uppercase;
-  color: var(--color-blue);
+  color: $color-blue;
 }
 
 .home_info_price_small {
-  font-family: var(--font-play-regular);
+  font-family: $font-play-regular;
   font-weight: 700;
   font-size: 2rem;
   line-height: 2.2rem;
-  color: var(--color-red-dark);
+  color: $color-red-dark;
 }
 
 .home_nav_block {
@@ -118,12 +120,12 @@
 }
 
 .home_nav_feature_text {
-  font-family: var(--font-opensans-regular);
+  font-family: $font-opensans-regular;
   font-style: normal;
   font-weight: 400;
   font-size: 2.4rem;
   line-height: 2.9rem;
-  color: #000000;
+  color: $color-black;
 }
 
 @media only screen and (min-width: 112.5em) {

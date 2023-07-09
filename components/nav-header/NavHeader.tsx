@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { NextRouter, useRouter } from 'next/router'
 import { navHeader } from '../../utils/routes'
-import styles from './NavHeader.module.css'
+import styles from './NavHeader.module.scss'
 
 export const NavHeader = (): JSX.Element => {
   const { pathname }: NextRouter = useRouter()

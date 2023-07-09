@@ -3,7 +3,7 @@ import { LayoutProps } from './Layout.props'
 import { Header } from '../header/Header'
 import { Footer } from '../footer/Footer'
 
-import styles from './Layout.module.css'
+import styles from './Layout.module.scss'
 
 const Layout = ({ children, type }: LayoutProps): JSX.Element => {
   return (

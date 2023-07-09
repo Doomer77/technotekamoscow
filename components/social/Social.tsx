@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { navSocial } from '../../utils/social'
-import styles from './Social.module.css'
+import styles from './Social.module.scss'
 
 export const Social = (): JSX.Element => {
   return (

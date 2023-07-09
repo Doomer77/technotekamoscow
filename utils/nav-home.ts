@@ -52,7 +52,7 @@ export const navHome: NavHomeInterface[] = [
   {
     id: 5,
     img: iconSiteDev,
-    path: '/development',
+    path: '/website-dev',
     title: 'Создание сайтов',
     longImg: true,
     alt: 'TechnotekaMoscow - разработка и продвижение сайтов и приложений',
@@ -71,7 +71,7 @@ export const navHome: NavHomeInterface[] = [
     path: '/console-service',
     title: 'Ремонт Sony PlayStation',
     longImg: true,
-    alt: 'TechnotekaMoscow - ремонт приставок: Sony PlayStation'
+    alt: 'TechnotekaMoscow - ремонт приставок: Sony PlayStation',
   },
   {
     id: 8,

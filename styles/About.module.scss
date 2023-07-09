@@ -1,3 +1,5 @@
+@import '../assets/sass/variables';
+
 .about {
   width: 100%;
   height: calc(100vh - 14rem);
@@ -25,7 +27,7 @@
   min-width: 29rem;
   height: 30.5rem;
   margin-right: 4rem;
-  box-shadow: var(--box-shadow);
+  box-shadow: $box-shadow;
   border-radius: 1rem;
 }
 
@@ -45,15 +47,15 @@
 }
 
 .about_info_header {
-  font-family: var(--font-play-regular);
+  font-family: $font-play-regular;
   font-size: 2.7rem;
   font-weight: 700;
-  color: var(--color-red);
+  color: $color-red;
   margin-bottom: 1.5rem;
 }
 
 .about_info_text {
-  font-family: var(--font-play-regular);
+  font-family: $font-play-regular;
   font-size: 1.8rem;
   line-height: 2.3rem;
 }
@@ -73,20 +75,20 @@
 .about_mission_content {
   margin-right: 4rem;
   max-width: 60%;
-  border-left: 2px solid var(--color-red);
+  border-left: 2px solid $color-red;
   padding-left: 0.5rem;
 }
 
 .about_mission_header {
-  font-family: var(--font-play-regular);
+  font-family: $font-play-regular;
   font-size: 2rem;
   text-transform: uppercase;
-  color: var(--color-red);
+  color: $color-red;
   margin-bottom: 1.5rem;
 }
 
 .about_mission_text {
-  font-family: var(--font-play-regular);
+  font-family: $font-play-regular;
   font-size: 1.8rem;
   line-height: 2.3rem;
   text-align: justify;
@@ -98,18 +100,18 @@
 
 .about_info_text_red {
   font-weight: 700;
-  color: var(--color-red);
+  color: $color-red;
 }
 
 .about_info_text_blue {
   font-weight: 700;
-  color: var(--color-blue);
+  color: $color-blue;
 }
 
 .about_mission_img_block {
   min-width: 55rem;
   min-height: 16.5rem;
-  box-shadow: var(--box-shadow);
+  box-shadow: $box-shadow;
   border-radius: 1rem;
 }
 

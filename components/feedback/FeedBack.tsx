@@ -1,4 +1,4 @@
-import styles from './FeedBack.module.css'
+import styles from './FeedBack.module.scss'
 
 export const FeedBack = (): JSX.Element => {
   return (

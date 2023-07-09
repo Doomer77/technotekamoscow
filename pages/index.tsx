@@ -4,7 +4,7 @@ import React from 'react'
 import Image from 'next/image'
 import { navHome } from '../utils/nav-home'
 import { withLayout } from '../components/modules/layout/Layout'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 
 function Home() {
   return (

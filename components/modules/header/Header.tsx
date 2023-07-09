@@ -4,7 +4,7 @@ import { Logo } from '../../logo/Logo'
 import { FeedBack } from '../../feedback/FeedBack'
 import { Burger } from '../../burger/Bureger'
 import { useState } from 'react'
-import styles from './Header.module.css'
+import styles from './Header.module.scss'
 import { BurgerMenu } from '../../bureger-menu/BuregerMenu'
 
 export const Header = ({ ...props }: HeaderProps): JSX.Element => {

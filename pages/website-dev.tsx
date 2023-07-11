@@ -1,7 +1,9 @@
-import Head from 'next/head'
 import React from 'react'
-import { withLayout } from '../components/modules/layout/Layout'
+import Head from 'next/head'
 import Image from 'next/image'
+import { withLayout } from '../components/modules/layout/Layout'
+import { Card } from '../components/ui/card/Card'
+import { cards } from '../utils/cards'
 import devImage from '../assets/images/png/dev-image.png'
 import styles from '../styles/Dev.module.scss'
 
@@ -55,6 +57,47 @@ function WebSiteDev() {
               нарушающих законодательство Российской Федерации и
               распространяющих моральное или этичное разложение общества.
             </p>
+          </div>
+        </div>
+        <div className={styles.features}>
+          <div className={styles.features__box_heading}>
+            <h2 className={styles.features__heading}>
+              Разрабатываем и внедряем любые решения
+            </h2>
+          </div>
+          <div className={styles.features__content}>
+            <div className={styles.features__box}>
+              {cards.map((c, index) => {
+                if (index <= 2) {
+                  return (
+                    <Card
+                      key={c.id}
+                      variant={c.variant}
+                      heading={c.heading}
+                      textP={c.textP}
+                      price={c.price}
+                      textBtn={c.textBtn}
+                    />
+                  )
+                }
+              })}
+            </div>
+            <div className={styles.features__box}>
+              {cards.map((c, index) => {
+                if (index > 2) {
+                  return (
+                    <Card
+                      key={c.id}
+                      variant={c.variant}
+                      heading={c.heading}
+                      textP={c.textP}
+                      price={c.price}
+                      textBtn={c.textBtn}
+                    />
+                  )
+                }
+              })}
+            </div>
           </div>
         </div>
       </section>

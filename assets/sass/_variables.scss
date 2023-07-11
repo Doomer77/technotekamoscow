@@ -8,7 +8,22 @@ $color-red-dark: #ce1414;
 $color-black-opacity: rgba(0, 0, 0, 0.8);
 $color-black-light: rgb(62, 62, 62);
 $font-play-regular: 'PlayRegular';
-$font-opensans-bold: 'OpenSansBold';
+$font-opensans-bold: 'OpenSansSemiBold';
 $font-opensans-regular: 'OpenSansRegular';
+$font-opensans-extra-bold: 'OpenSansBold';
 $box-shadow: -3px 3px 13px 3px rgba(3, 3, 3, 0.76);
 $color-black: #000000;
+$color-violet: #9c1661;
+$color-light-green: #4bc63c;
+$color-orange: #e2640f;
+$color-light-orange: #e89b27;
+$color-green: #0b8920;
+
+//mixins
+@mixin card-bcg {
+  min-width: 37.5rem;
+  height: 56.5rem;
+  border-radius: 1rem;
+  background: $color-white-opacity;
+  box-shadow: 0px 0px 9px 8px rgba(0, 0, 0, 0.25);
+}

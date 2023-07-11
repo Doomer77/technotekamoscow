@@ -1,0 +1,39 @@
+@import '../../../assets/sass/variables';
+
+.button {
+  padding: 1rem 5rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-family: $font-play-regular;
+  color: $color-white;
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    transform: translateY(-0.5rem);
+  }
+}
+
+.violet {
+  background: $color-violet;
+}
+
+.lgreen {
+  background: $color-light-green;
+}
+
+.orange {
+  background: $color-orange;
+}
+
+.blue {
+  background: $color-blue;
+}
+
+.lorange {
+  background: $color-light-orange;
+}
+
+.green {
+  background: $color-green;
+}

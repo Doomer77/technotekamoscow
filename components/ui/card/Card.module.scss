@@ -10,14 +10,14 @@
     border-top-right-radius: 1rem;
     background-size: cover;
     background-position: center;
-    clip-path: polygon(0 0, 100% 0%, 100% 78%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 76%, 0% 100%);
     &__violet {
       background-image: radial-gradient(
           237.33% 143.89% at 100% -0%,
           rgba(235, 33, 118, 0.74) 0%,
           rgba(153, 13, 148, 0.73) 99.79%
         ),
-        url('../../../assets/images/png/female-web.jpg');
+        url('../../../assets/images/png/female.png');
     }
     &__lgreen {
       background-image: linear-gradient(
@@ -25,7 +25,7 @@
           #10e2ef 0%,
           rgba(99, 254, 4, 0.66) 100%
         ),
-        url('../../../assets/images/png/photographers.jpg');
+        url('../../../assets/images/png/photographers.png');
     }
     &__orange {
       background-image: linear-gradient(
@@ -33,7 +33,7 @@
           #ef6010 0%,
           rgba(254, 139, 4, 0.66) 100%
         ),
-        url('../../../assets/images/png/technology.jpg');
+        url('../../../assets/images/png/technology.png');
     }
     &__blue {
       background-image: radial-gradient(
@@ -41,7 +41,7 @@
           rgba(19, 124, 246, 0.74) 0%,
           rgba(84, 34, 228, 0.73) 99.79%
         ),
-        url('../../../assets/images/png/man.jpg');
+        url('../../../assets/images/png/man.png');
     }
     &__lorange {
       background-image: radial-gradient(
@@ -49,7 +49,7 @@
           rgba(246, 19, 19, 0.74) 0%,
           rgba(224, 228, 34, 0.73) 99.79%
         ),
-        url('../../../assets/images/png/top.jpg');
+        url('../../../assets/images/png/top.png');
     }
     &__green {
       background-image: linear-gradient(
@@ -57,7 +57,7 @@
           #22ef10 0%,
           rgba(144, 254, 4, 0.66) 100%
         ),
-        url('../../../assets/images/png/top-view.jpg');
+        url('../../../assets/images/png/top-view.png');
     }
   }
   &__heading {

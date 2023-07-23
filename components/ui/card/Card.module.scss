@@ -1,11 +1,14 @@
 @import '../../../assets/sass/variables';
 
 .card {
+  margin-bottom: 4rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
   @include card-bcg;
   &__img_box {
     position: relative;
-    width: 375px;
-    height: 260px;
+    width: 37.5rem;
+    height: 26rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     background-size: cover;

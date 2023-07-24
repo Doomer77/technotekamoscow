@@ -4,7 +4,7 @@ import React from 'react'
 import { withLayout } from '../components/modules/layout/Layout'
 import aboutInfoImg from '../assets/images/png/about-info-image.png'
 import aboutMissionImg from '../assets/images/png/mission-image.png'
-import styles from '../styles/About.module.css'
+import styles from '../styles/About.module.scss'
 
 function About() {
   return (
@@ -68,7 +68,7 @@ function About() {
               <p className={styles.about_mission_text}>
                 Мы делаем доступными ремонт техники и создание сайтов для
                 каждого! И готовы восстановить любую Вашу неисправность,
-                невзирая на сложность инепогоду.
+                невзирая на сложность и непогоду.
                 <br />
                 <span className={styles.about_mission_strong}>
                   Всегда рады помочь Вам!

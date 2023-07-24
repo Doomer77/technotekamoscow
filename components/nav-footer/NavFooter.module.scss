@@ -1,3 +1,5 @@
+@import '../../assets/sass/variables';
+
 .nav {
   display: flex;
   align-items: center;
@@ -15,22 +17,22 @@
 }
 
 .nav_link {
-  font-family: var(--font-opensans-regular);
+  font-family: $font-opensans-regular;
   font-size: 1.3rem;
-  color: var(--color-white);
+  color: $color-white;
   text-transform: uppercase;
   text-decoration: none;
   transition: all 0.4s;
 }
 
 .nav_link:hover {
-  color: var(--color-red);
+  color: $color-red;
 }
 
 .nav_link_active {
-  font-family: var(--font-opensans-regular);
+  font-family: $font-opensans-regular;
   font-size: 1.8rem;
-  color: var(--color-red);
+  color: $color-red;
   text-transform: uppercase;
   text-decoration: none;
   transition: all 0.4s;

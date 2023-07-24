@@ -1,3 +1,5 @@
+@import '../../assets/sass/_variables.scss';
+
 .nav {
   width: 100%;
   align-items: center;
@@ -8,7 +10,7 @@
   top: 50px;
   right: -100%;
   z-index: 5000;
-  background: var(--color-blue-opacity);
+  background: $color-blue-opacity;
   transition: all 0.3s;
   display: none;
 }
@@ -24,7 +26,7 @@
   top: 50px;
   right: 0%;
   z-index: 5000;
-  background: var(--color-blue-opacity);
+  background: $color-blue-opacity;
   transition: all 0.3s;
 }
 
@@ -43,31 +45,31 @@
 }
 
 .nav_link {
-  font-family: var(--font-opensans-regular);
+  font-family: $font-opensans-regular;
   font-size: 1.8rem;
-  color: var(--color-white);
+  color: $color-white;
   text-transform: uppercase;
   text-decoration: none;
   transition: all 0.4s;
 }
 
 .nav_link:hover {
-  color: var(--color-red);
+  color: $color-red;
 }
 
 .nav_link_active {
-  font-family: var(--font-opensans-regular);
+  font-family: $font-opensans-regular;
   font-size: 1.8rem;
-  color: var(--color-red);
+  color: $color-red;
   text-transform: uppercase;
   text-decoration: none;
   transition: all 0.4s;
 }
 
 .phone_link {
-  font-family: var(--font-play-regular);
+  font-family: $font-play-regular;
   font-size: 1.8rem;
-  color: var(--color-white);
+  color: $color-white;
   text-decoration: none;
   font-weight: 700;
   transition: all 0.3s;

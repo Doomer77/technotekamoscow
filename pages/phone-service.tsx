@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import React from 'react'
-import { withLayout } from '../components/modules/layout/Layout'
 
 function About() {
   return (
@@ -22,5 +21,3 @@ function About() {
     </>
   )
 }
-
-export default withLayout(About, 'layout')

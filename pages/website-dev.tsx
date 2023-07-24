@@ -1,7 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
-import { withLayout } from '../components/modules/layout/Layout'
 import { Card } from '../components/ui/card/Card'
 import { cards } from '../utils/cards'
 import devImage from '../assets/images/png/dev-image.png'
@@ -9,8 +8,9 @@ import styles from '../styles/Dev.module.scss'
 import { Button } from '../components/ui/button/Button'
 import { Col, Container, Row } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { Header } from '../components/modules/header/Header'
 
-function WebSiteDev() {
+const WebSiteDev = () => {
   return (
     <>
       <Head>
@@ -27,7 +27,8 @@ function WebSiteDev() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className={styles.dev}>
-        <Container className="mb-5">
+        <Header />
+        <Container className="pt-5 pb-5">
           <Row className="d-flex justify-content-between">
             <Col xxl={4}>
               <div className={styles.image_box}>
@@ -152,11 +153,4 @@ function WebSiteDev() {
   )
 }
 
-export default withLayout(WebSiteDev, 'layout')
-// ‌- Тематика сайта;
-// ‌- Активность конкурентов;
-// ‌- Бюджет продвижения;
-// - ‌Контент;
-// ‌- Сроки;
-// ‌- Продвигаемые запросы;
-// ‌- Структура сайта и др.
+export default WebSiteDev

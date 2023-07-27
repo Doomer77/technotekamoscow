@@ -29,14 +29,14 @@ const About = () => {
         <Header />
         <Container>
           <Row className="d-flex justify-content-between">
-            <Col xxl={3} xl={3}>
+            <Col xxl={3} xl={3} md={5}>
               <Image
                 src={aboutInfoImg}
                 className={styles.about_info_image}
                 alt=""
               />
             </Col>
-            <Col xxl={9} xl={9}>
+            <Col xxl={9} xl={9} md={7}>
               <div className={styles.about_info_content}>
                 <h1 className={styles.about_info_header}>О нас</h1>
                 <p className={styles.about_info_text}>
@@ -79,7 +79,7 @@ const About = () => {
 
         <Container>
           <Row>
-            <Col xxl={6} className="mt-4">
+            <Col xxl={6} xl={6} className="mt-4">
               <div className={styles.about_mission_content}>
                 <h2 className={styles.about_mission_header}>
                   Миссия компании:
@@ -95,7 +95,7 @@ const About = () => {
                 </p>
               </div>
             </Col>
-            <Col xxl={6}>
+            <Col xxl={6} xl={6}>
               <div className={styles.about_mission_img_block}>
                 <Image
                   src={aboutMissionImg}

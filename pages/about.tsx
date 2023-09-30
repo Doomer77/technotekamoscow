@@ -1,12 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import React from 'react'
-import { withLayout } from '../components/modules/layout/Layout'
 import aboutInfoImg from '../assets/images/png/about-info-image.png'
 import aboutMissionImg from '../assets/images/png/mission-image.png'
 import styles from '../styles/About.module.scss'
 
-function About() {
+export default function About() {
   return (
     <>
       <Head>
@@ -88,5 +87,3 @@ function About() {
     </>
   )
 }
-
-export default withLayout(About, '100')

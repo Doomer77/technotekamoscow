@@ -25,12 +25,6 @@ export const navSocial: SocialInterface[] = [
     alt: '',
   },
   {
-    id: 3,
-    icon: tikTokIcon,
-    path: 'https://www.tiktok.com/@technotekamoscow?',
-    alt: '',
-  },
-  {
     id: 4,
     icon: telIcon,
     path: 'https://t.me/technotekamoscow',

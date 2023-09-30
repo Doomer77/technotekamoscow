@@ -1,7 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
-import { withLayout } from '../components/modules/layout/Layout'
 import { Card } from '../components/ui/card/Card'
 import { cards } from '../utils/cards'
 import devImage from '../assets/images/png/dev-image.png'
@@ -10,7 +9,7 @@ import { Button } from '../components/ui/button/Button'
 import { Col, Container, Row } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-function WebSiteDev() {
+export default function WebSiteDev() {
   return (
     <>
       <Head>
@@ -152,7 +151,6 @@ function WebSiteDev() {
   )
 }
 
-export default withLayout(WebSiteDev, 'layout')
 // ‌- Тематика сайта;
 // ‌- Активность конкурентов;
 // ‌- Бюджет продвижения;

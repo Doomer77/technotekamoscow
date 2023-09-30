@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
-import { withLayout } from '../components/modules/layout/Layout'
 
-function Blog() {
+export default function Blog() {
   return (
     <>
       <Head>
@@ -22,5 +21,3 @@ function Blog() {
     </>
   )
 }
-
-export default withLayout(Blog, 'layout')

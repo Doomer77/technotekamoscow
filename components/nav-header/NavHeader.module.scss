@@ -1,23 +1,30 @@
 @import '../../assets/sass/variables';
 
 .nav {
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .nav_list {
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: center;
   list-style: none;
 }
 
 .nav_item:not(:last-child) {
-  margin-right: 3rem;
+  margin-right: 2rem;
 }
 
 .nav_link {
+  margin: 0;
+  padding: 0;
   font-family: $font-opensans-regular;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   color: $color-white;
   text-transform: uppercase;
   text-decoration: none;
@@ -25,12 +32,16 @@
 }
 
 .nav_link:hover {
+  margin: 0;
+  padding: 0;
   color: $color-red;
 }
 
 .nav_link_active {
+  margin: 0;
+  padding: 0;
   font-family: $font-opensans-regular;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   color: $color-red;
   text-transform: uppercase;
   text-decoration: none;
@@ -39,6 +50,8 @@
 
 @media only screen and (max-width: 40em) {
   .nav {
+    margin: 0;
+    padding: 0;
     display: none;
   }
 }

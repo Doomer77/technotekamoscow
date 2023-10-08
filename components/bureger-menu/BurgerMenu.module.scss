@@ -6,7 +6,7 @@
   flex-direction: column;
   position: absolute;
   justify-content: center;
-  height: calc(100vh - 14rem);
+  height: calc(100vh + 13rem);
   top: 50px;
   right: -100%;
   z-index: 5000;
@@ -22,7 +22,7 @@
   justify-content: center;
   flex-direction: column;
   position: absolute;
-  height: calc(100vh - 14rem);
+  height: calc(100vh + 13rem);
   top: 50px;
   right: 0%;
   z-index: 5000;

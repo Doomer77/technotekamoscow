@@ -12,7 +12,7 @@ export const Logo = (): JSX.Element => {
           <Image
             src={logoIcon}
             alt="TechnotekaMoscow - выездной сервис по ремонту и продаже техники брендов: Apple, Sumsung, Xiaomi, Huawei, Vivo,
-                    Oppo, Realme, Vertu, Asus, Acer, HP, Lenovo, Dell, MSi, Gygabyte, Sony..."
+                 Oppo, Realme, Vertu, Asus, Acer, HP, Lenovo, Dell, MSi, Gygabyte, Sony..."
             className={styles.logo}
             priority
           />

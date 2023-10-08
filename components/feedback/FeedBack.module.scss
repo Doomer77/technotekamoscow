@@ -1,17 +1,24 @@
 @import '../../assets/sass/variables';
 
 .user_box {
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .phone_box {
+  margin: 0;
+  padding: 0;
   margin-right: 2rem;
 }
 
 .phone_link {
+  margin: 0;
+  padding: 0;
   font-family: $font-play-regular;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   color: $color-white;
   text-decoration: none;
   font-weight: 700;
@@ -19,13 +26,17 @@
 }
 
 .phone_link:hover {
+  margin: 0;
+  padding: 0;
   color: $color-red;
 }
 
 .user_feedback_button {
-  padding: 1.1rem 1.7rem;
+  margin: 0;
+  padding: 0;
+  padding: 1rem 1.2rem;
   border-radius: 0.5rem;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   font-family: $font-play-regular;
   border: none;
   outline: none;
@@ -35,6 +46,11 @@
 }
 
 .user_feedback_button:hover {
+  margin: 0;
+  padding: 0;
+  padding: 1rem 1.2rem;
+  border-radius: 0.5rem;
+  font-size: 1.3rem;
   background: $color-red;
   color: $color-white;
 }

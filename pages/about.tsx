@@ -1,12 +1,13 @@
 import Head from 'next/head'
+import { Header } from '../components/modules/header/Header'
+import { Footer } from '../components/modules/footer/Footer'
 import Image from 'next/image'
 import React from 'react'
-import { withLayout } from '../components/modules/layout/Layout'
 import aboutInfoImg from '../assets/images/png/about-info-image.png'
 import aboutMissionImg from '../assets/images/png/mission-image.png'
 import styles from '../styles/About.module.scss'
 
-function About() {
+export default function About() {
   return (
     <>
       <Head>
@@ -22,22 +23,26 @@ function About() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section className={styles.about}>
-        <div className={styles.about_container}>
-          <div className={styles.about_info}>
-            <div className={styles.about_info_img_block}>
+      <main className={styles.about}>
+        <Header />
+        <section className={styles.about__section}>
+          <div className={styles.about__info}>
+            <div className={styles.about__info_img__block}>
               <Image
                 src={aboutInfoImg}
-                className={styles.about_info_image}
+                className={styles.about__info__image}
                 alt=""
               />
             </div>
-            <div className={styles.about_info_content}>
-              <h1 className={styles.about_info_header}>О нас</h1>
-              <p className={styles.about_info_text}>
+            <div className={styles.about__info_text__block}>
+              <h1 className={styles.about__info__header}>О нас</h1>
+              <p className={styles.about__info__text}>
                 Сервисный центр
-                <span className={styles.about_info_text_red}> Technoteka</span>
-                <span className={styles.about_info_text_blue}>moscow </span>
+                <span className={styles.about__info__text_red}>
+                  {' '}
+                  Technoteka
+                </span>
+                <span className={styles.about__info__text_blue}>moscow </span>
                 осуществляет свою деятельность с 2012 года и специализируется на
                 ремонте техники Apple, Samsung, Xiaomi, Huawei, Oppo, Vivo,
                 OnePlus, Realme, Tecno, Google, Asus, Acer, HP, Dell, Lenovo,
@@ -47,9 +52,13 @@ function About() {
                 квалифицированы и профессиональны, регулярно проходя обучение,
                 тестирование и аттестацию.
               </p>
-              <p className={styles.about_info_text}>
-                В<span className={styles.about_info_text_red}> Technoteka</span>
-                <span className={styles.about_info_text_blue}>moscow </span>
+              <p className={styles.about__info__text}>
+                В
+                <span className={styles.about__info__text_red}>
+                  {' '}
+                  Technoteka
+                </span>
+                <span className={styles.about__info__text_blue}>moscow </span>
                 сервисные инженеры задают самые высокие стандарты сервиса и
                 качества предоставляемых услуг. Именно они ремонтируют Ваши
                 гаджеты и разрабатывают сайты. Это специалисты, досконально
@@ -62,31 +71,32 @@ function About() {
               </p>
             </div>
           </div>
-          <div className={styles.about_mission}>
-            <div className={styles.about_mission_content}>
-              <h2 className={styles.about_mission_header}>Миссия компании:</h2>
-              <p className={styles.about_mission_text}>
+          <div className={styles.about__mission}>
+            <div className={styles.about__mission_text__block}>
+              <h2 className={styles.about__mission__header}>
+                Миссия компании:
+              </h2>
+              <p className={styles.about__mission__text}>
                 Мы делаем доступными ремонт техники и создание сайтов для
                 каждого! И готовы восстановить любую Вашу неисправность,
                 невзирая на сложность и непогоду.
                 <br />
-                <span className={styles.about_mission_strong}>
+                <span className={styles.about__mission__text_strong}>
                   Всегда рады помочь Вам!
                 </span>
               </p>
             </div>
-            <div className={styles.about_mission_img_block}>
+            <div className={styles.about__mission_img__block}>
               <Image
                 src={aboutMissionImg}
-                className={styles.about_info_image}
+                className={styles.about__info__image}
                 alt=""
               />
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+        <Footer />
+      </main>
     </>
   )
 }
-
-export default withLayout(About, '100')

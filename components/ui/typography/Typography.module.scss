@@ -1,0 +1,27 @@
+@import '../../../assets/sass/variables';
+
+.typography {
+  width: 30rem;
+  font-family: $font-opensans-bold;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  line-height: 2.9rem;
+  &__violet {
+    color: $color-violet;
+  }
+  &__lgreen {
+    color: $color-light-green;
+  }
+  &__orange {
+    color: $color-orange;
+  }
+  &__blue {
+    color: $color-blue;
+  }
+  &__lorange {
+    color: $color-light-orange;
+  }
+  &__green {
+    color: $color-green;
+  }
+}

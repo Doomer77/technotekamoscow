@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
 
-export interface LayoutProps {
+export interface TypographyProps {
   children: ReactNode
-  type: string
+  variant: string
 }

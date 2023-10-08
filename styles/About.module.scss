@@ -28,7 +28,6 @@
   &__info {
     width: 100%;
     display: flex;
-    // justify-content: space-between;
     &_img__block {
       box-shadow: $box-shadow;
       border-radius: 1rem;
@@ -57,13 +56,14 @@
       font-family: $font-play-regular;
       font-size: 2rem;
       font-weight: 700;
-      color: $color-red;
+      color: $color-blue;
       margin-bottom: 1rem;
     }
   }
   &__info__text {
     font-family: $font-play-regular;
     font-size: 1.6rem;
+    color: $color-black-light;
     line-height: 1.9rem;
     &:not(:last-child) {
       margin-bottom: 1.5rem;
@@ -111,6 +111,7 @@
       font-size: 1.6rem;
       line-height: 1.9rem;
       text-align: justify;
+      color: $color-black-light;
       border-left: 2px solid $color-red;
 
       &_strong {
